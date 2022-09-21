@@ -11,6 +11,8 @@ moja_funkcja('gosia', 'bujak', 31)
 
 def moja_funkcja(imie, nazwisko, wiek=3):
     print(imie, nazwisko, wiek)
+
+
 moja_funkcja('Gosia', 'Bujak', 31)
 
 # 2)
@@ -19,4 +21,6 @@ dane = {'imie': 'Waldemar', 'nazwisko': 'Nowak', 'wiek': 23}
 
 def moja_funkcja(imie, nazwisko, wiek=3):
     print(imie, nazwisko, wiek)
+
+
 moja_funkcja(** dane)
