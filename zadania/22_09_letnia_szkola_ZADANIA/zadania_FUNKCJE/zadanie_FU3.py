@@ -9,5 +9,7 @@ moj_slownik = [{'imie': 'Tomek', 'nazwisko': 'Kowalski', 'wiek': 31, 'adres': 'A
 
 
 def wybierz_pelnoletnich(osoby):
-    return [x for x in moj_slownik['wiek'] if x > 18]
+    return [osoba for osoba in osoby if osoba['wiek'] >= 18]
+
+print(wybierz_pelnoletnich(moj_slownik))
 
